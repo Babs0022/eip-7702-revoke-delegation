@@ -1,0 +1,32 @@
+{
+  "name": "eip-7702-revoke-delegation",
+  "version": "1.0.0",
+  "description": "Complete guide and implementation for revoking EIP-7702 delegations on EVM addresses",
+  "main": "index.js",
+  "scripts": {
+    "delegate": "ts-node scripts/delegate.ts",
+    "revoke": "ts-node scripts/revoke.ts",
+    "check-delegation": "ts-node scripts/checkDelegation.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eip-7702",
+    "ethereum",
+    "evm",
+    "delegation",
+    "revoke",
+    "smart-contract",
+    "account-abstraction"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "viem": "^2.21.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
